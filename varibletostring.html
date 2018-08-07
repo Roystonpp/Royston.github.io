@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<br>
+<p id="JSON"></p>
+</br>
+
+<br><button onclick="console.log(addage())"> Press me </button></br>
+<br><script type="text/javascript" src="variablestostring.js"></script></br>
+<script type="text/javascript">
+	//var myJSON = JSON.stringify.(personObject);
+	console.log(personObject);
+	document.write(personObject.name, personObject.age, personObject.Occupation);
+	document.write(document.getElementById("JSON").innerHTML = myJSON);
+	//--------------------------------------------------------------
+	/*function increaseage() {
+		document.getElementById("age").stepUp();
+	}*/
+	document.write(stringOne);
+</script>
+<p>
+	<form>
+		Name: <input type="text" name="fname" id="fname"><br>
+		Age: <input type= number name="age" id="age"><br>
+		Occupation:<input type="text" name="Occupation" id="Occupation" ><br>
+		<input type="button" value="submit" onclick="console.log(addperson(document.getElementById('fname').value, document.getElementById('age').value, document.getElementById('Occupation').value))">
+	</form>
+</p>
+</body>
+<footer>
+</footer>
+</html>
