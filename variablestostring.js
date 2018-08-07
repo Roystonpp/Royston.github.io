@@ -21,8 +21,23 @@ function addperson(name, age, Occupation)
 	personObject.Occupation = Occupation;
  return personObject;
  }
+//----------------------------------------------------------------------
+ 	var elliott = "He said 'My name is Elliott' ";
+ 	var upper = elliott.toUpperCase();
+//----------------------------------------------------------------------
+ 	var str1 = "chi";
+ 	var str2 = 808;
+ 	var con = str1.concat(str2);
+//----------------------------------------------------------------------
+ 	var trainers = ["adidas EQT ","Air Max 97 ","Jordan Retro 8 "];
 
- function stringOne(String)
- {
- 	var elliott = new Object("He said 'My name is Elliott' ");
- }
+function addString(string)
+{
+	trainers.push(string)
+	return trainers;
+}
+function removeString()
+{
+	trainers.splice(trainers.length -1,1)
+	return trainers;
+}
